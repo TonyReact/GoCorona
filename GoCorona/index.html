@@ -13,17 +13,25 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <title>GoCorona</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+  
+      $(document).ready(function(){
+          $(this).scrollTop(0);
+      });
+  
+    </script>
   </head>
   <body>
     <div class="wrapper">
       <header id="open" class="header">
         <div id="close" class="header__container">
-          <a href="" class="header__logo">
+          <a href="" class="header__logo _show-header _anim-items _anim-no-hide">
             <img src="img/logo.svg" alt="logo" />
           </a>
           <div class="header__menu menu">
             <nav class="menu__body">
-              <ul class="menu__list">
+              <ul class="menu__list _show-header _anim-items _anim-no-hide">
                 <li class="menu__item">
                   <a href="" class="menu__link">HOME</a>
                 </li>
@@ -39,7 +47,7 @@
               </ul>
             </nav>
           </div>
-          <div class="header__button">
+          <div class="header__button _show-header _anim-items _anim-no-hide">
             <a href="" class="button button_blue">DOWNLOAD</a>
             <a href="#open" class="icon-menu"><span></span></a>
             <a href="#close" class="close-icon-menu"></a>
@@ -51,25 +59,25 @@
           <div class="get-started__container">
             <div class="get-started__content">
               <div class="get-started__block-text block-text">
-                <h1 class="block-text__title block-text__title_blue">
+                <h1 class="block-text__title block-text__title_blue _show-text _anim-items _anim-no-hide">
                   Take care of yours family’s <span>health.</span>
                 </h1>
-                <div class="block-text__text">
+                <div class="block-text__text _show-text _anim-items _anim-no-hide">
                   All in one destination for COVID-19 health queries. Consult
                   10,000+ health workers about your concerns.
                 </div>
-                <a href="" class="block-text__button button">GET STARTED</a>
+                <a href="" class="block-text__button button _show-text _anim-items _anim-no-hide">GET STARTED</a>
               </div>
             </div>
-            <div class="get-started__image">
+            <div class="get-started__image _show-item_right _anim-items _anim-no-hide">
               <img src="img/get-started/image.svg" alt="pict doc and child" />
             </div>
             <div class="get-started__video">
               <a href="#experts" class="video-get-started">
-                <div class="video-get-started__icon">
+                <div class="video-get-started__icon _show-item_left _anim-items _anim-no-hide">
                   <img src="img/get-started/play.svg" alt="play button" />
                 </div>
-                <div class="video-get-started__body">
+                <div class="video-get-started__body _show-text _anim-items _anim-no-hide">
                   <div class="video-get-started__title">
                     Stay safe with GoCorona
                   </div>
@@ -84,30 +92,30 @@
             <div class="stay-safe__media">
               <div class="media-stay-safe">
                 <div class="media-stay-safe__image">
-                  <img src="img/stay-safe/app.png" alt="app-image" />
+                  <img src="img/stay-safe/app.png" class="_show-img _anim-items _anim-no-hide" alt="app-image" />
                 </div>
                 <div
                   class="media-stay-safe__item media-stay-safe__item_1"
                 ></div>
                 <div
-                  class="media-stay-safe__item media-stay-safe__item_2"
+                  class="media-stay-safe__item media-stay-safe__item_2 _show-cubs-stay_second _anim-items _anim-no-hide"
                 ></div>
                 <div
-                  class="media-stay-safe__item media-stay-safe__item_3"
+                  class="media-stay-safe__item media-stay-safe__item_3 _show-cubs-stay_third _anim-items _anim-no-hide"
                 ></div>
               </div>
             </div>
             <div class="stay-safe__content">
               <div class="stay-safe__block-text block-text">
-                <h2 class="block-text__title">
+                <h2 class="block-text__title _show-text _anim-items _anim-no-hide">
                   Stay safe with Go<span>Corona.</span>
                 </h2>
-                <div class="block-text__text">
+                <div class="block-text__text _show-text _anim-items _anim-no-hide">
                   24x7 Support and user friendly mobile platform to bring
                   healthcare to your fingertips. Signup and be a part of the new
                   health culture.
                 </div>
-                <a href="" class="block-text__button button">Features</a>
+                <a href="" class="block-text__button button _show-text _anim-items _anim-no-hide">Features</a>
               </div>
             </div>
           </div>
@@ -132,30 +140,30 @@
                 </div>
               </div>
               <div
-                class="statistics-experts__decor statistics-experts__decor_1"
+                class="statistics-experts__decor statistics-experts__decor_1 _show-cubs-experts_first _anim-items _anim-no-hide"
               ></div>
               <div
-                class="statistics-experts__decor statistics-experts__decor_2"
+                class="statistics-experts__decor statistics-experts__decor_2 _show-cubs-experts_second _anim-items _anim-no-hide"
               ></div>
               <div
-                class="statistics-experts__decor statistics-experts__decor_3"
+                class="statistics-experts__decor statistics-experts__decor_3 _show-cubs-experts_third _anim-items _anim-no-hide"
               ></div>
             </div>
             <div class="experts__body">
               <div class="experts__content">
                 <div class="experts__block-text block-text">
-                  <h2 class="block-text__title block-text__title_blue">
+                  <h2 class="block-text__title block-text__title_blue _show-text _anim-items _anim-no-hide">
                     Talk to <span>experts.</span>
                   </h2>
-                  <div class="block-text__text">
+                  <div class="block-text__text _show-text _anim-items _anim-no-hide">
                     Book appointments or submit queries into thousands of forums
                     concerning health issues and prevention against noval Corona
                     Virus.
                   </div>
-                  <a href="" class="block-text__button button">Features</a>
+                  <a href="" class="block-text__button button _show-text _anim-items _anim-no-hide">Features</a>
                 </div>
               </div>
-              <div class="experts__video">
+              <div class="experts__video _show-item_right _anim-items _anim-no-hide" data-map="https://www.youtube.com/embed/AO8RWJmhpCY">
                 <iframe
                   id="video"
                   src="https://www.youtube.com/embed/AO8RWJmhpCY"
@@ -171,10 +179,10 @@
         <section id="health" class="healthcare">
           <div class="healthcare__container">
             <div class="healthcare__block-text block-text block-text_center">
-              <h2 class="block-text__title">
+              <h2 class="block-text__title _show-text _anim-items _anim-no-hide">
                 <span>Healthcare</span> at your Fingertips.
               </h2>
-              <div class="block-text__text block-text__text_mw">
+              <div class="block-text__text block-text__text_mw _show-text _anim-items _anim-no-hide">
                 Bringing premium healthcare features to your fingertips. User
                 friendly mobile platform to bring healthcare to your fingertips.
                 Signup and be a part of the new health culture.
@@ -186,8 +194,8 @@
                   <div class="item-healthcare__icon">
                     <img src="img/healthcare//human.svg" alt="pic" />
                   </div>
-                  <div class="item-healthcare__title">Symptom Checker</div>
-                  <div class="item-healthcare__text">
+                  <div class="item-healthcare__title _show-text _anim-items _anim-no-hide">Symptom Checker</div>
+                  <div class="item-healthcare__text _show-text _anim-items _anim-no-hide">
                     Check if you are infected by COVID-19 with our Symptom
                     Checker
                   </div>
@@ -198,8 +206,8 @@
                   <div class="item-healthcare__icon">
                     <img src="img/healthcare//doctor.svg" alt="pic" />
                   </div>
-                  <div class="item-healthcare__title">24x7 Medical support</div>
-                  <div class="item-healthcare__text">
+                  <div class="item-healthcare__title _show-text _anim-items _anim-no-hide">24x7 Medical support</div>
+                  <div class="item-healthcare__text _show-text _anim-items _anim-no-hide">
                     Consult with 10,000+ health workers about your concerns.
                   </div>
                 </div>
@@ -209,8 +217,8 @@
                   <div class="item-healthcare__icon">
                     <img src="img/healthcare//heart.svg" alt="pic" />
                   </div>
-                  <div class="item-healthcare__title">Conditions</div>
-                  <div class="item-healthcare__text">
+                  <div class="item-healthcare__title _show-text _anim-items _anim-no-hide">Conditions</div>
+                  <div class="item-healthcare__text _show-text _anim-items _anim-no-hide">
                     Bringing premium healthcare features to your fingertips.
                   </div>
                 </div>
@@ -222,15 +230,17 @@
       <footer class="footer">
         <div class="footer__container">
           <div class="footer__items">
-            <a href="" class="footer__item">
+            <a href="" class="footer__item _show-text _anim-items _anim-no-hide">
               <img src="img/healthcare/google.svg" alt="google-play" />
             </a>
-            <a href="" class="footer__item">
+            <a href="" class="footer__item _show-text _anim-items _anim-no-hide">
               <img src="img/healthcare/appstore.svg" alt="app-store" />
             </a>
           </div>
         </div>
       </footer>
     </div>
+    <script src="js/script.js"></script>
+    <script src="js/buttons.js"></script>
   </body>
 </html>
